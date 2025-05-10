@@ -1,0 +1,62 @@
+<html>
+<head> 
+<link rel="stylesheet" href="css/styleregister.css">
+</head>
+<body>
+
+<section class="container2">
+ <header class="headerregister">
+
+ <a href="home.html"><img  class= "logo"  src="images/rolex logo.png" ></a>
+ 
+<nav>
+    <li><a href="home.html"> Home </a></li>
+    <li><a href="register.html"> sign in/up </a>
+    <li><a href="contact.html"> Contact </a></li>
+    <li><a href="aboutus.html"> About </a></li>
+   
+</NAV>
+ </header>
+</section>
+
+<section> 
+<div class="container" id="container">
+  
+    <div class="form-container log-in-container">
+        
+        <form name="form1"action="#"  >
+            <h1>"SIGN UP NOW"</h1>
+           
+          <input type="text" id="fname" name="firstname"  placeholder="Your first name.." required>
+          <div id="first-name-err"></div>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <div id="last-name-err"></div>
+          <input type="text" id="text1" name="text1"  placeholder="Email" required />
+        
+         <input type="password"  id="psw" name="psw"  placeholder="Password" required />
+   
+          <button onclick="signup()" > REGISTER </button> 
+         
+        </form>
+    </div>
+
+    <div class="overlay-container">
+        <div class="overlay">
+            <div class="overlay-panel overlay-right">
+                <video height="100%"  autoplay loop muted plays-inline>
+                    <source src="images/classic-watches-cellini-moonphase-video.webm" CLASS="BACK-VIDEO" type="video/mp4">
+                  </video>
+                
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+
+
+  
+  <script src="javascript/main.js"></script>
+  
+  </body>
+      
+  </html>

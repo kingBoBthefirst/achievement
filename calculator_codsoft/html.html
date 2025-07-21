@@ -1,0 +1,32 @@
+
+<!doctype html>
+<html>
+<head>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="calculator">
+        <input id="display" readonly>
+        <div id="keys">
+        <button onclick="show_on_display('+')" class="operator">+</button>
+        <button onclick="show_on_display('7')">7</button>
+        <button onclick="show_on_display('8')">8</button>
+        <button onclick="show_on_display('9')">9</button>
+        <button onclick="show_on_display('-')" class="operator">-</button>
+        <button onclick="show_on_display('4')">4</button>
+        <button onclick="show_on_display('5')">5</button>
+        <button onclick="show_on_display('6')">6</button>
+        <button onclick="show_on_display('*')" class="operator">*</button>
+        <button onclick="show_on_display('1')">1</button>
+        <button onclick="show_on_display('2')">2</button>
+        <button onclick="show_on_display('3')">3</button>
+        <button onclick="show_on_display('/')" class="operator">/</button>
+        <button onclick="show_on_display('0')">0</button>
+        <button onclick="show_on_display('.')">.</button>
+        <button onclick="operate()">=</button>
+        <button onclick="clearDisplay()" class="operator">C</button>
+        </div>
+        </div>
+<script src="js.js"></script>
+</body>
+</html>
